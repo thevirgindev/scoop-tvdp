@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "description": "Minimal AI chat application (a school project)",
+  "homepage": "https://github.com/thevirgindev/Project-Olly",
+  "license": "MIT",
+
+  "url": "https://github.com/thevirgindev/Project-Olly/releases/download/v1.0.0/Project_Olly-win-x64v.zip",
+  "hash": "4864984197E7AF036CC2C53615058E6A32999FFD6BCB720E51E423E2F5DF1F52",
+
+  "bin": "Project-Olly.exe",
+
+  "persist": "userInfo",
+
+  "checkver": {
+    "github": "thevirgindev/Project-Olly"
+  },
+
+  "autoupdate": {
+    "url": "https://github.com/thevirgindev/Project-Olly/releases/download/v$version/Project_Olly-win-x64.zip"
+  }
+}
